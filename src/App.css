@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
+/* styles.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Global styles for the website */
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Text color */
 }
+  
+  /* Apply dark theme to ProjectCard */
+.card {
+    background-color: #1d1d1d; /* Darker card background color */
+    color: #ffffff; /* Card text color */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    /* Magenta highlights for various elements */
+    .MuiCardHeader-subheader,
+    .MuiTypography-body2,
+    .MuiChip-root {
+      color: #ff4081; /* Magenta color */
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    /* Styling for the icons */
+    .MuiSvgIcon-root {
+      fill: #ff4081; /* Magenta color */
+    }
 }
